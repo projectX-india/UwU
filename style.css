@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   body, html{
+   overflow-x: hidden;
+   
+   
+   }
+   /* overflow means that no scroll in the horizontal direction*/
+   .landing{
+   height : 100vh;
+   width : 100w=vw;
+   background: url(https://source.unsplash.com/WzHSAUL33gA);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   }
+   nav{
+   background: white;
+   }
+   .o{
+       font-size: 30px;
+   }
+   .content{
+       font-size: 30px;
+       align-items: center;
+       text-align: center;
+       
+   }
