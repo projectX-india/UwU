@@ -7,29 +7,31 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="styles.css">
      <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <title>ProjectX</title>
   </head>
   <body>
    <div class="landing"></div><nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="navbar-brand o" href="#" >APPLE</a>
+    <a class="navbar-brand o" href="https://www.apple.com/in/" ><h1><font type="Harlow Solid">IPhone</font></h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" ml-auto>
-        <li class="nav-item active">
-          <a class="nav-link o" href="#">Buy Now <span class="sr-only">(current)</span></a>
+        <li class="nav-item ">
+          <a class="nav-link o" href="https://www.apple.com/in/iphone-12-pro/"><button class="buttonbutton4">Buy Now</button><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link o" href="#">Features</a>
+          <a class="nav-link o" href="https://www.apple.com/in/iphone-12-pro/specs/">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link o" href="#">Pricing</a>
+          <a class="nav-link o" href="https://www.apple.com/in/shop/buy-iphone/iphone-12-pro">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link o" href="#">Review</a>
+          <a class="nav-link o" href="https://www.flipkart.com/apple-iphone-11-pro-space-grey-64-gb/product-reviews/itm7e24c1c560208?pid=MOBFKCTSAYWUW8HP">Review</a>
+        </li>
+      
         </li>
       </ul>
     </div>
@@ -46,12 +48,203 @@
        </div>
 <script>
     new TypeIt(".multipleStrings", {
-  strings: ["We're apple.", "We know that you'll buy it"],
+  strings: ["We're Apple.", "We know that you'll buy it."],
   speed: 50,
   waitUntilVisible: true
 }).go();
 </script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://source.unsplash.com/OxvlDO8RwKg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://source.unsplash.com/JTLR-tc3_eo" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://source.unsplash.com/FvmS8WXKV0g" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      
+      <div class="vl">
+        <span class="vl-innertext"></span>
+      </div>
+
+      
+      <div class="col">
+        <div class="hide-md-lg">
+          <p></p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login" >
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="https://appleid.apple.com/account?localang=IN-EN&app_id=2083&returnURL=https%3A//secure2.store.apple.com/in/shop/sign_in%3Fc%3DaHR0cHM6Ly93d3cuYXBwbGUuY29tL2luL3Nob3AvYWNjb3VudC9ob21lX2RlZmF1bHR8MWFvczk5NTEyNjQ3MzU5YWRkMTVhMTEwYWRjNzVhMTJhYmIxNWQ5NzBkZjE%26r%3DSCDHYHP7CY4H9XK2H%26s%3DaHR0cHM6Ly93d3cuYXBwbGUuY29tL2luL3Nob3AvYWNjb3VudC9ob21lX2RlZmF1bHR8MWFvczk5NTEyNjQ3MzU5YWRkMTVhMTEwYWRjNzVhMTJhYmIxNWQ5NzBkZjE" style="color:black" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="https://iforgot.apple.com/password/verify/appleid?language=IN-EN&app_id=2083&newWindow=true&border=false" style="color:black" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
 
 
 </body>
