@@ -1,34 +1,61 @@
+
 *{
-    margin: 0;
-    padding: 0;
-   }
-   body, html{
-   overflow-x: hidden;
-   
-   
-   }
-   /* overflow means that no scroll in the horizontal direction*/
-   .landing{
-   height : 100vh;
-   width : 100w=vw;
-   background: url(https://source.unsplash.com/WzHSAUL33gA);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-   }
-   nav{
-   background: white;
-   }
-   .o{
-       font-size: 30px;
-   }
-   .content{
-       font-size: 30px;
-       align-items: center;
-       text-align: center;
-       
-   }
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.page-container {
+    display: flex;
+    height: 98vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container  .page-wrap {
+    background-color:white;
+    width: 40%;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.page-container .page-wrap h2 {
+    text-align: center;
+    margin: 0px 0px 20px;
+    font-size: 19px;
+}
+
+.page-container .page-wrap .page-box {
+    margin: 0px 0px 15px;
+    border-radius: 5px;
+}
+
+.page-container .page-wrap .page-box input[type='text']{
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+width: 100%;
+}
+
+.page-container .page-wrap .page-submit {
+    display: flex;
+justify-content: center;
+}
+
+.page-container .page-wrap .page-submit input[type="submit"] {
+    padding: 4px 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    font-size:  16px;
+}
+.page-container .page-wrap .page-submit input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
