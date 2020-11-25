@@ -1,0 +1,87 @@
+h1{
+    background-color: rgb(90, 92, 109);
+font-size: 50px;
+height: 65px;
+text-overflow: ellipsis;
+text-align: center;
+margin-top: 4px;
+border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+}
+body{
+    background-color: rgb(114, 121, 128);
+    background-image: url(https://source.unsplash.com/AI4z8pby_VM);
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    align-items: center;
+
+text-emphasis-color: white;
+color:white;
+text-align: center;
+font-size:40px;
+
+
+}
+.text{
+text-align: center;
+font-size: 20px;
+font-family: cursive;
+background-color:rgb(64, 62, 70) ;
+border-radius: 15px;
+height: 80px;
+width:600px;
+}
+.lastbutton{
+    
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 10px;
+background-color: rgb(71, 71, 71);
+color: white;
+font-size: 20px;
+height:80px;
+}
+.now{
+    color: black;
+    
+}
+.lol{
+height: 40px;
+width: 100px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+border-radius: 10px;
+color:black;
+}
+.optionbutton{
+
+    height: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: initial;
+}
+.longbar{
+width: 300px;
+height: 20px;
+color:rgb(101, 101, 105);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-radius: 5px;
+}
+input:hover,
+.lol:hover {
+  opacity: .80;
+  color:white;
+  background-color: black;
+  
+  
+}
